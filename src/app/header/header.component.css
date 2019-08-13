@@ -1,0 +1,19 @@
+.navbar{
+   
+    background-color :#3f51b5; 
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+ 
+}
+.btnCraete{
+    float: right;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.header{
+        margin-right: 50px;
+    margin-left: 30px;
+}

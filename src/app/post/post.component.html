@@ -1,0 +1,26 @@
+<div class="container-fluid">
+        <div class="row">
+             
+                  <mat-card class="example-card" *ngFor="let post of PostList" >
+                      <mat-card-header>
+                        <div mat-card-avatar class="example-header-image"></div>
+                     
+                        <mat-card-subtitle style="font-weight:bold">Post Details</mat-card-subtitle>
+                      </mat-card-header>
+                      <mat-card-content>
+                    <span style="font-weight:bold">Title:</span> {{post.title}}
+                      </mat-card-content>
+                    
+                      <mat-card-content>
+                       <span style="font-weight:bold"> Details:</span> {{post.body}}  
+                      </mat-card-content>
+                      <mat-card-actions>
+                          <button mat-flat-button color="primary" class="btn" (click)="getAPostList(post.id)" >View Details</button>
+                          <button mat-flat-button color="primary"   (click)="getEditPostList(post.id)">Edit</button>
+                      </mat-card-actions>
+                    </mat-card>
+                     
+        </div>
+      
+         
+      </div>

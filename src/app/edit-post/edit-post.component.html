@@ -1,0 +1,24 @@
+<div class="container">
+     
+            <mat-card  class="example-form ">
+                <form  [formGroup]="postform">
+                     <div>
+                       <span> <b>Edit Post Here:</b> </span>
+                        <mat-form-field  class="example-form" >
+                            <input matInput formControlName="title"  placeholder="Post Title"  >
+                          </mat-form-field>
+                     </div>
+                   
+                  <div>
+                      <mat-form-field  class="example-form" >
+                          <textarea matInput formControlName="body"  placeholder="Leave a comment"></textarea>
+                        </mat-form-field>
+                  </div>
+                   
+                   <button mat-flat-button color="primary" [routerLink]="['/']" (click)="onFormSubmit(postform.value)">  Update </button>
+
+                </form>
+
+            </mat-card>
+     
+</div>

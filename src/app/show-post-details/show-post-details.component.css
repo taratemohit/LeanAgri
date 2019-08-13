@@ -1,0 +1,30 @@
+.example-card {
+    
+     width: 90%;
+     margin-top: 59px;
+     margin-left: 84px;
+     
+     background-color: #e0eae8;
+}
+
+  
+ .commnts{
+      margin-bottom: 2px;
+ }
+ 
+ .commentBody{
+      margin-left: 24px; 
+    
+}
+ 
+
+ .mat-card-content>:last-child:not(.mat-card-footer), .mat-card>:last-child:not(.mat-card-footer) {
+    margin-bottom: -15px !important;
+}
+
+.btn{
+     margin-left: 8px;
+}
+.avatar{
+     width: 70px;
+}

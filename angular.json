@@ -22,8 +22,10 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
+               
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -80,9 +82,9 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+              "src/assets",
+              "src/favicon.ico"     
+           ],
             "styles": [
               "src/styles.css"
             ],
